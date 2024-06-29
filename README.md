@@ -16,7 +16,7 @@ During the development of this project, several important concepts were explored
 ## How to Run the Project
 1. Clone the repository
 ```js
-git clone https://github.com/your-username/tic-tac-toe-react.git
+git clone https://github.com/maduMelo/tic-tac-toe-with-React-AI.git
 cd tic-tac-toe
 ```
 2. Install the dependencies
