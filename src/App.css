@@ -1,0 +1,49 @@
+.board-column {
+    display: inline-block;
+}
+
+.board-column .square {
+    min-width: 8rem;
+    min-height: 8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    color: white;
+}
+
+.board-column .square:hover {
+    background-color: #f0f0f01c;
+}
+
+.board-column .square:active {
+    background-color: #75206a31;
+}
+
+.top-border {
+    border-top: 3px solid #75206a;
+}
+
+.left-border {
+    border-left: 3px solid #75206a;
+}
+
+.statistics {
+    display: flex;
+    gap: 1rem;
+}
+
+#game {
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    margin-top: 2rem;
+}
